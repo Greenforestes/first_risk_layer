@@ -1,0 +1,9 @@
+<library path="nav2_future_keepout_layer">
+  <class
+    type="nav2_future_keepout_layer::FutureKeepoutLayer"
+    base_class_type="nav2_costmap_2d::Layer">
+    <description>
+      Future keepout layer for global costmap.
+    </description>
+  </class>
+</library>

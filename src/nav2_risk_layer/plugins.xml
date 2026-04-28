@@ -1,0 +1,9 @@
+<library path="nav2_risk_layer">
+  <class
+    type="nav2_risk_layer::RiskLayer"
+    base_class_type="nav2_costmap_2d::Layer">
+    <description>
+      Risk layer plugin for future-to-cost integration.
+    </description>
+  </class>
+</library>

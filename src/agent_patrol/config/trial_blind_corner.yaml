@@ -1,0 +1,9 @@
+fixed_trial_node:
+  ros__parameters:
+    trial_name: "blind_corner_trial"
+    initial_pose: [0.0, 0.0, 0.0]
+    goal_pose: [4.0, 0.0, 0.0]
+    start_delay_sec: 1.0
+    post_start_goal_delay_sec: 0.1
+    nav_timeout_sec: 40.0
+    trial_start_topic: /trial/start

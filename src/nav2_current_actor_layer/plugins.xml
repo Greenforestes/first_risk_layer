@@ -1,0 +1,9 @@
+<library path="nav2_current_actor_layer">
+  <class
+    type="nav2_current_actor_layer::CurrentActorLayer"
+    base_class_type="nav2_costmap_2d::Layer">
+    <description>
+      Current actor layer plugin for clean dynamic obstacle baseline.
+    </description>
+  </class>
+</library>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="dynamic_cylinder">
+    <static>false</static>
+    <allow_auto_disable>false</allow_auto_disable>
+
+    <link name="link">
+      <pose>0 0 0.4 0 0 0</pose>
+      <gravity>false</gravity>
+      <self_collide>false</self_collide>
+      <kinematic>true</kinematic>
+
+      <inertial>
+        <mass>5.0</mass>
+        <inertia>
+          <ixx>0.2</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.2</iyy>
+          <iyz>0.0</iyz>
+          <izz>0.1</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.10</radius>
+            <length>0.80</length>
+          </cylinder>
+        </geometry>
+        <max_contacts>10</max_contacts>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.10</radius>
+            <length>0.80</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.9 0.1 0.1 1</ambient>
+          <diffuse>0.9 0.1 0.1 1</diffuse>
+          <specular>0.3 0.3 0.3 1</specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
